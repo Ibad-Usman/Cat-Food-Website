@@ -19,6 +19,7 @@ export default function Home() {
         <img 
             src="/catpaws.png"
             alt="Cat paws on screen"
+            loading="eager"
             className="absolute top-24 left-0 w-[800px] h-[500px] object-contain"
           />
         <h1 className="absolute left-28 top-60 font-oswald text-6xl max-w-2xl">Nature's Best for Your Cat</h1>
@@ -30,7 +31,7 @@ export default function Home() {
          <img 
             src="/onlycat.png"
             alt="Cat laying down and eating food from bowl"
-            loading="lazy"
+            loading="eager"
             className="mx-auto"
           />
           <button
