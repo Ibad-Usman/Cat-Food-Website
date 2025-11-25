@@ -11,9 +11,9 @@ function Navbar() {
 
       <div className="flex text-black text-lg space-x-6">
         <Link to="/" className="hover:text-gray-800">Home</Link>
-        <Link to="/cat-food-products" className="relative -top-1 items-center justify-center bg-[#FFB700] text-white px-3 py-1 rounded-xl hover:bg-yellow-500 transition duration-200">Products</Link>
-        <Link to="/cat-food-subscription" className="hover:text-gray-800">Subscription</Link>
-        <Link to="/about-us" className="hover:text-gray-800">About</Link>
+        <Link to="/products" className="relative -top-1 items-center justify-center bg-[#FFB700] text-white px-3 py-1 rounded-xl hover:bg-yellow-500 transition duration-200">Products</Link>
+        <Link to="/subscription" className="hover:text-gray-800">Subscription</Link>
+        <Link to="/about" className="hover:text-gray-800">About</Link>
         <a href="#" className="hover:text-gray-800">Contact</a>
       </div>
       

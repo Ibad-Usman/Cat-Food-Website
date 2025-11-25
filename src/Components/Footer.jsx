@@ -38,10 +38,10 @@ const Footer = ({color}) => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="javascript:void(0)" className="hover:underline">Privacy Policy</a>
+                  <button className="hover:underline text-gray-600 dark:text-gray-400">Privacy Policy</button>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" className="hover:underline">Terms & Conditions</a>
+                  <button className="hover:underline text-gray-600 dark:text-gray-400">Terms & Conditions</button>
                 </li>
               </ul>
             </div>
