@@ -13,9 +13,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about-us" element={<About/>}/>
-          <Route path="/cat-food-products" element={<Product/>}/>
-          <Route path="/cat-food-subscription" element={<Subscription/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/products" element={<Product/>}/>
+          <Route path="/subscription" element={<Subscription/>}/>
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
