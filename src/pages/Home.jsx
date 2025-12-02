@@ -31,7 +31,7 @@ export default function Home() {
           <h2 className="absolute left-40 top-[440px] ">No Artificial Flavouring</h2>
         </div>
          <img 
-            src="/onlycat.png"
+            src="/onlycat.jpg"
             alt="Cat laying down and eating food from bowl"
             loading="eager"
             className="mx-auto"
