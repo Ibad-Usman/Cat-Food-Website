@@ -22,7 +22,7 @@ export default function Home() {
             loading="eager"
             width="800"
             height="500"
-            className="absolute top-24 left-0 w-[800px] h-[500px] object-contain"
+            className="absolute top-24 left-0 object-contain w-[800px] h-[500px]"
           />
         <h1 className="absolute left-28 top-60 font-oswald text-6xl max-w-2xl">Nature's Best for Your Cat</h1>
         <div className="font-yellow text-5xl space-y-8">
