@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'yellow': ['Yellowtail', 'cursive'],
-        'oswald': ['Oswald', 'sans-serif'],
+        yellow: ['Yellowtail', 'cursive'],
+        oswald: ['Oswald', 'sans-serif'],
         bebas: ['Bebas Neue', 'sans-serif'],
       },
     },
