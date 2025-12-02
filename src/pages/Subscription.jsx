@@ -15,6 +15,7 @@ export default function Subscription()
       </Helmet>
         <section className="overflow-hidden">
             <Navbar/>
+            <main>
             <div className="relative pt-16 w-screen min-h-screen">
                 <div className="w-screen min-h-screen bg-yellow-400">
                     <div className="relative pl-14">
@@ -52,6 +53,7 @@ export default function Subscription()
                 </div>
                 
             </div>
+            </main>
             <Footer/>
         </section>
         </>

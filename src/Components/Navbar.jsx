@@ -24,7 +24,9 @@ function Navbar() {
         placeholder="Search..."
         className="px-3 py-1 rounded-l-lg text-black border border-black border-r-0"
         />
-        <button className="h-9 w-10 bg-yellow-400 flex items-center justify-center rounded-r-lg border border-black border-l-0 hover:bg-yellow-500 transition duration-200">
+        <button className="h-9 w-10 bg-yellow-400 flex items-center justify-center rounded-r-lg border border-black border-l-0 hover:bg-yellow-500 transition duration-200"
+         aria-label="Search Button"
+         >
            <MagnifyingGlassIcon className="h-6 w-7 text-white" />
         </button>
       </div>

@@ -15,6 +15,7 @@ export default function Product(){
                 <meta property="og:description" content="Check out our 100% natural cat food products which are made from the finest ingredients with no artificial flavouring." />
         </Helmet>
         <Navbar/>
+        <main>
         <div className="pt-32">
         <h1 className="text-center font-bebas text-6xl">Our Products</h1>
         <p className="text-lg pt-4 pl-32 max-w-[1404px]">
@@ -26,6 +27,7 @@ export default function Product(){
         <FilterPanel/>
         <ProdCardTemp/>
         </div>
+        </main>
         <Footer/>
         </>
     );

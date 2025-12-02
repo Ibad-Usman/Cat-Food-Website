@@ -15,14 +15,15 @@ export default function Home() {
       </Helmet>
     <div>
       <Navbar/>  
+    <main>
       <section className="w-full h-screen pt-[64px] flex justify-center">
         <img 
             src="/catpaws.png"
             alt="Cat paws on screen"
             loading="eager"
-            width="800"
-            height="500"
-            className="absolute top-24 left-0 object-contain w-[800px] h-[500px]"
+            width="376"
+            height="556"
+            className="absolute top-32 left-48 object-contain w-[376px] h-[556px]"
           />
         <h1 className="absolute left-28 top-60 font-oswald text-6xl max-w-2xl">Nature's Best for Your Cat</h1>
         <div className="font-yellow text-5xl space-y-8">
@@ -34,7 +35,9 @@ export default function Home() {
             src="/onlycat.jpg"
             alt="Cat laying down and eating food from bowl"
             loading="eager"
-            className="mx-auto"
+            width="1080px"
+            height="900px"
+            className="w-[1080px] h-[960px] pb-60 object-contain"
           />
           <button
             className="absolute flex items-center gap-2 bottom-36 left-64 bg-yellow-400 text-white font-bold text-lg px-10 py-4 rounded-full"
@@ -64,6 +67,7 @@ export default function Home() {
         <p className="absolute bottom-36 right-48 text-lg hover:text-gray-600 cursor-pointer">All Products</p>
         </div>
       </section>
+     </main>
       <Footer/>
     </div>
     </>
